@@ -1,0 +1,80 @@
+body.background{
+    background-image: url(Color\ Hunt\ Palette\ fff3e2ffe5cafa9884e74646.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.foto{
+    background-image: url(/WhatsApp\ Image\ 2023-07-07\ at\ 13.14.33.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    float: left;
+    margin-right: 20px; /* Ajuste o valor conforme desejado */
+}
+.content {
+    overflow: auto;
+  }
+div{
+    overflow: auto;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-family:'Great Vibes', cursive;
+    color:rgb(0, 0, 0);
+
+}
+
+h2 {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid rgb(0, 0, 0);
+  }
+  
+p{
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin: 0; Remove as margens do elemento */
+    font-family: Arial, Helvetica, sans-serif; /* Define a familia de fontes a ser utilizada*/
+    font-size: 20px; /* Tamanho da fonte */
+    color: #00000096; /* cor do texto */
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5); /* sombra do texto */
+    -webkit-text-stroke: 0.5px black; /* contorno do texto */
+    letter-spacing: 2.75px;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
